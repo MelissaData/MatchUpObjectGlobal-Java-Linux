@@ -1,5 +1,4 @@
 
-
 # Compiled class file
 *.class
 
@@ -19,7 +18,8 @@
 Data/
 com/
 
-libmdMatchup.dll
-libmdGlobalParse.dll
+libmdMatchup.so
+libmdGlobalParse.so
 *.hash
+*output.txt
 
