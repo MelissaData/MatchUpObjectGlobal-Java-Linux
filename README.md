@@ -24,7 +24,7 @@ And return
 ## Tested Environments
 
 - Linux 64-bit Java 19.0.2, Ubuntu 20.04.05 LTS
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 
 ## Required File(s) and Programs
@@ -100,8 +100,8 @@ If you see the version number then you have installed Java and set up your envir
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java-Linux
-$ cd MatchUpObjectGlobal-Java-Linux
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java-Linux
+cd MatchUpObjectGlobal-Java-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -165,25 +165,25 @@ Parameters:
 - Interactive 
 
   The script will prompt the user for a global txt file and a US txt file, then use the provided txt files to test MatchUp Object Global.  For example:
-    ```
-    $ ./MelissaMatchupObjectGlobalLinuxJava.sh
-    ```
-    For quiet mode:
-    ```
-    $ ./MelissaMatchupObjectGlobalLinuxJava.sh --quiet
-    ```
+  ```
+  ./MelissaMatchupObjectGlobalLinuxJava.sh
+  ```
+  For quiet mode:
+  ```
+  ./MelissaMatchupObjectGlobalLinuxJava.sh --quiet
+  ```
 - Command Line 
 
   You can pass a global txt file, US txt file, and a license string into the `--global`, `--us`, and `--license` parameters respectively to test MatchUp Object Global. For example:
-    ```
-    $ ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt"
-    $ ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt" --license "<your_license_string>"
-    ```
+  ```
+  ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt"
+  ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt" --license "<your_license_string>"
+  ```
   For quiet mode:
-    ```
-    $ ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt" --quiet
-    $ ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt" --license "<your_license_string>" --quiet
-    ```
+  ```
+  ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt" --quiet
+  ./MelissaMatchupObjectGlobalLinuxJava.sh --global "MelissaMatchupGlobalSampleInput.txt" --us "MelissaMatchupUSSampleInput.txt" --license "<your_license_string>" --quiet
+  ```
 This is the expected output from a successful setup for interactive mode:
 
 ![alt text](/screenshots/output.png)
